@@ -1,0 +1,20 @@
+/* GALLERY */
+
+.main-gallery {
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 280px 280px 280px 280px 280px; 
+    gap: 0.825em;
+}
+
+.img-gallery {
+    width: 350px;
+    height: 280px;
+    border-radius: 1em;
+    margin-bottom: 0.825em;
+}
+

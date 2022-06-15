@@ -1,0 +1,13 @@
+/* Typography */
+
+
+@font-face {
+    font-family: Cera-round-pro-Thin;
+    src: url(../../fonts/ceraroundpro-thin.otf);
+}
+
+@font-face {
+    font-family: Cera-round-pro-Medium;
+    src: url(../../fonts/ceraroundpro-medium.otf);
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MemeGen</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<body>
+    <header class="top-header space-between">
+        <div class="logo"><img src="img/LOGO.png" alt="logo image" class="logo-img" /></div>
+        <nav class="nav-bar space-between">
+            <ul class="nav-ul flex">
+                <li><a href="#">About</a></li>
+                <li><a href="generator.html">Generagor</a></li>
+                <li><a href="#" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="search-line"><input class="input-search" type="search" placeholder="Search Something..."><i
+            class="fa-light fa-magnifying-glass"></i></section>
+    <div class="main-container">
+        <main class="main-gallery">
+            <img src="img/1.jpg" class="img" />
+        </main>
+    </div>
+    <div class="about">
+        <aside class="about-pic"><img src="img/monica.jpg" class="img-monica" />
+        </aside>
+        <aside class="about-text">
+            <h3>Monica Geller</h3>
+            <p>is a fictional character, one of the six main characters who appears on the American sitcom Friends.
+                Created by David Crane and Marta Kauffman</p>
+            <div class="social-links">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-github"></a>
+            </div>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="footer-logo"><img src="img/LOGO.png" alt="logo image" class="footer-logo-img" /></div>
+        <h4 class="all-rights">All Rights Reserved, Pirhiya Asor, Coding Academy May 2022</h4>
+    </footer>
+
+    <!-- <button type="button" class="btn"  onclick="document.location='user-settings.html'">Gallery</button> -->
+    <script src="js/meme-controller.js"></script>
+    <script src="js/gallery-controller.js"></script>
+    <script src="js/service/gallery-service.js"></script>
+    <script src="js/service/memegenerator-service.js"></script>
+    <script src="js/service/listeners-service.js"></script>
+    <script src="js/service/storage-service.js"></script>
+</body>
+
+</html>

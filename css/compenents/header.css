@@ -1,0 +1,33 @@
+
+/* HEADER & NAVBAR */
+
+.top-header {
+    background-color: orange;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 4em;
+    align-items: center;
+    align-content: center;
+}
+
+.top-header .nav-bar {
+    justify-content: space-between;
+}
+
+.top-header .nav-bar ul {
+    list-style-type: none;
+
+}
+
+.top-header .nav-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}

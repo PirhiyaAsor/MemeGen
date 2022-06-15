@@ -1,0 +1,19 @@
+/* SEARCH */
+
+.search-line {
+    padding: 2.5em;
+    margin-left: 3.1em;
+}
+
+
+
+.search-line input.input-search {
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 1.58em;
+    padding-inline-end: 16em;
+}
+
+.fa-light .fa-magnifying-glass {
+    color: gray;
+}

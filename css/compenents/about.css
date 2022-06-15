@@ -1,0 +1,33 @@
+/* ABOUT */
+
+.about {
+    background-color: #fff;
+    height: 560px;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+}
+
+.about-pic {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.about-text {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 1.5em;
+}
+
+
+.img-monica {
+    border-radius: 50%;
+    margin: auto;
+}
