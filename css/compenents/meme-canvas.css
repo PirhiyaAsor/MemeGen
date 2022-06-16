@@ -1,0 +1,35 @@
+/* MEME CANVAS */
+
+.generator-container{
+    width: 100vh;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    /* padding: 100px; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.canvas {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 4em;
+    border-radius: 2em;
+}
+
+.meme-canvas {
+    display: none;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.canvas-open {
+    background-image: url(../../img/);
+    background-repeat: no-repeat;
+    background-position: left;
+    float: left;
+}

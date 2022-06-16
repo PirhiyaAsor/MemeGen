@@ -9,12 +9,21 @@
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 280px 280px 280px 280px 280px; 
     gap: 0.825em;
+    justify-content: center;
 }
 
-.img-gallery {
+.img {
     width: 350px;
     height: 280px;
     border-radius: 1em;
     margin-bottom: 0.825em;
+    background-position: center;
+    background-size: cover;
+    box-shadow:3px 3px 20px 0px rgba(0, 0, 0, 0.266);
 }
 
+.img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.4s;
+}

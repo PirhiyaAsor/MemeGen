@@ -1,0 +1,135 @@
+/* .meme-img {
+    width: 550px;
+    height: 550px;
+    background-color: aquamarine;
+} */
+
+.control-box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "line-txt line-txt line-txt line-txt line-txt"
+        "add-line switch-line . . remove"
+        "increase decrease align-left align-center align-right"
+        "font font font stroke-color fill-color"
+        "stickers stickers stickers stickers stickers"
+        "stickers stickers stickers stickers stickers"
+        "share share . download download";
+    width: 430px;
+    height: 550px;
+}
+.btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid orange;
+    border-radius: 0.825em;
+    background-repeat:   no-repeat;
+    background-size: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.btn:hover { 
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #ffeacb;
+    transition: all 0.4s;
+    box-shadow: inset rgb(242, 144, 7) 0px -5px 0px;
+}
+.line-txt {
+    grid-area: line-txt;
+    width: 430px;
+    height: 70px;
+    /* background-color: aqua; */
+}
+
+.add-line {
+    grid-area: add-line;
+    /* width: 78px;
+    height: 70px; */
+}
+
+.switch-line {
+    grid-area: switch-line;
+
+}
+
+.remove {
+    grid-area: remove;
+
+}
+
+.increase {
+    grid-area: increase;
+}
+
+.decrease {
+    grid-area: decrease;
+ 
+}
+
+.align-left {
+    grid-area: align-left;
+}
+
+.align-center {
+    grid-area: align-center;
+    
+}
+
+.align-right {
+    grid-area: align-right;
+    
+}
+
+.fill-color {
+    grid-area: fill-color;
+    
+}
+
+.font {
+    grid-area: font;
+    /* width: 254px;
+    height: 70px; */
+}
+
+.stroke-color {
+    grid-area: stroke-color;
+    
+}
+
+.download {
+    grid-area: download;
+    padding-top: 1.4em;
+    /* width: 166px;
+    height: 70px; */
+}
+
+.share {
+    grid-area: share;
+    padding-top: 1.4em;
+    /* width: 166px;
+    height: 70px; */
+}
+
+.stickers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . .";
+    grid-area: stickers;
+    width: 430px;
+    height: 150px;
+}
+
+input .line-txt {
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 1.58em;
+    padding-inline-end: 16em;
+}

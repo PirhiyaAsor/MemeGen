@@ -10,7 +10,7 @@
 /* BASE */
 @import 'basic/base.css';
 /* @import 'basic/layout.css'; */
-@import 'basic/helpers.css';
+/* @import 'basic/helpers.css'; */
 
 /* COMPONENTS */
 @import 'compenents/header.css';
@@ -18,10 +18,11 @@
 @import 'compenents/main-gallery.css';
 @import 'compenents/about.css';
 @import 'compenents/social-btn.css';
-@import 'compenents/gen-action-btn.css';
+@import 'compenents/meme-canvas.css';
+@import 'compenents/control-box.css';
 @import 'compenents/footer.css';
 
 /* MEDIA QUERIES */
-@import 'mq/mq.css'
+/* @import 'mq/mq.css' */
 
 
