@@ -22,21 +22,22 @@
     height: 550px;
 }
 .btn {
-    background-color: rgb(255, 255, 255);
+    background-color: #fffbf4;
     border: 1px solid orange;
     border-radius: 0.825em;
     background-repeat:   no-repeat;
     background-size: auto;
     text-align: center;
     align-content: center;
+    box-shadow:rgb(183 183 183 / 72%) 0px 1px 4px;
 }
 
 .btn:hover { 
     cursor: pointer;
     opacity: 0.7;
-    background-color: #ffeacb;
+    background-color: #ffd28e;
     transition: all 0.4s;
-    box-shadow: inset rgb(242, 144, 7) 0px -5px 0px;
+    box-shadow: inset rgb(248, 116, 0) 0px -5px 0px;
 }
 .line-txt {
     grid-area: line-txt;
@@ -45,15 +46,17 @@
     /* background-color: aqua; */
 }
 
-.add-line {
+.btn .add-line {
     grid-area: add-line;
     /* width: 78px;
     height: 70px; */
 }
+img .add-line {
+    width: 60%;
+}
 
 .switch-line {
     grid-area: switch-line;
-
 }
 
 .remove {
@@ -132,4 +135,28 @@ input .line-txt {
     border: 1px solid gray;
     border-radius: 1.58em;
     padding-inline-end: 16em;
+}
+
+input.fill-color,
+input.stroke-color {
+    background-color: var(--clr-white);
+    opacity: 0;
+    height: 54.4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.btn .stroke-color,
+.btn .fill-color {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    z-index: 1;
+}
+
+.btn .stroke-color,
+.btn .fill-color {
+    cursor: pointer;
 }

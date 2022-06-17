@@ -31,7 +31,7 @@ function renderMeme() {
 }
 
 function onImgSelect(id) {
-    setImg(id)
+    if (id===0){}
     const elSearch = document.querySelector('.content-filtering')
     const elBody = document.querySelector('.body')
     const elAbout = document.querySelector('.about')
@@ -95,5 +95,10 @@ function onSetAlign(align) {
 
 function onRemoveLine() {
     removeLine()
+    renderMeme()
+}
+
+function onDownloadCanvas(elLink) {
+    downloadCanvas(elLink)
     renderMeme()
 }

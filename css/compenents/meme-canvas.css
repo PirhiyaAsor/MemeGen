@@ -33,3 +33,7 @@
     background-position: left;
     float: left;
 }
+
+body.canvas-open {
+    background: none;
+}

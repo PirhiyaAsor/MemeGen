@@ -6,4 +6,9 @@
 body{
     font-family:Cera-round-pro-Medium, sans-serif;
     margin: 0;
+    width: 100vw;
 }
+
+/* .main-content {
+    width: 980px;
+} */

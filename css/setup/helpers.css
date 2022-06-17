@@ -24,3 +24,9 @@
 .padding {
     padding: 5px;
 }
+
+.center {
+    display: block;
+    margin: 1em;
+    width: 50%;
+  }

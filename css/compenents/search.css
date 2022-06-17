@@ -16,6 +16,8 @@
 
 .fa-light .fa-magnifying-glass {
     color: gray;
+    width: 0.7em;
+    height: 0.6em;
 }
 
 .search-line .search-keywords {
@@ -25,5 +27,6 @@
 
 .keywords span{
     padding: 0em 0.8em 0em 0.8em ;
-
+    cursor: pointer;
 }
+

@@ -185,7 +185,6 @@ function downloadCanvas(elLink) {
 
 function uploadImg(elLink) {
     if (elLink.innerText === '') { }
-    console.log(elLink.svg);
 
     const imgDataUrl = gCanvas.toDataURL("image/jpeg")
 

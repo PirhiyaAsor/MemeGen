@@ -4,11 +4,6 @@
 function addListeners() {
     addMouseListeners()
     addTouchListeners()
-    // //Listen for resize ev 
-    // window.addEventListener('resize', () => {
-    //     resizeCanvas()
-    //     renderCanvas()
-    // })
 }
 
 function addMouseListeners() {
